@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+html body {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	background-color: black;
+}
+
+h4 {
+	text-decoration: underline;
+	display: list-item;
+    list-style-type: square;
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
+
+.mainContainer {
+	background-color: black;
+	color: #AAA;
+	padding: 30px;
+	width: 70%;
+	min-width: 700px;
+}
+
+.mainContainer h2, strong {
+	color: #FFF;
+}
+
+.mainContainer input {
+	background-color: #AAA;
+   	color: black;
+   	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.mainContainer select {
+	background-color: #AAA;
+	color: black;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.mainContainer select:disabled{
+	background-color: #666;
+	color: #999;
+}
+
+.mainContainer label {
+	color: white;
+}
+
+.margin-left-40 {
+	margin-left: 40px;
+}
+
+.highlight {
+    color: white;
+    font-weight: bolder;
+}
